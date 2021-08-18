@@ -1,0 +1,52 @@
+doctype html
+html(lang = 'en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Document
+    link(rel='stylesheet' href='./css/main.min.css')
+  header
+    .header-img
+      .top-block
+        .first-line-header
+          .dream-share DREAMSHARE
+          .registration
+            .log-in Log in
+            .sign-up
+             p Sign up
+        .block-header
+          .header-title
+            h1 SHARE YOUR HOLIDAY DREAM
+            p And find the perfect partner to fullfill it
+              .block-find_partner Find your holiday partner
+  main
+    .container
+      include views/section1.pug
+      include views/section2.pug
+      .block-form
+        form
+          fieldset
+            legend Crate your holiday activity
+            p Hi! What are your holiday interests?
+            .form-input
+              input(type='text' placeholder='Enter your insterests')
+              .search
+                | Search partners
+  footer
+    .information
+      .footer-first-line
+        .caption_ DREAMSHARE
+        .block-company
+          .company Company
+          .list
+            a(href='') About
+            a(href='') Contact
+            a(href='') Press
+            a(href='') Blog
+            a.privacy(href='') Terms and Privacy
+            a(href='') Help
+        .partners Partners
+        .designed-by
+          .designed-by DESIGNED BY
+          .logo

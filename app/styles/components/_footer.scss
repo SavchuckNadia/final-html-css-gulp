@@ -1,0 +1,73 @@
+.footer-first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caption_ {
+    color: #FF4E50;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat-Regular';
+}
+
+.company,
+.partners {
+    color: #444444;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Montserrat-Bold';
+
+}
+
+.designed-by {
+    font-size: 10px;
+    line-height: 12px;
+    color: #CCCCCC;
+    font-family: 'Montserrat-Bold';
+    text-align: right;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    height: 156px;
+    justify-content: space-between;
+    width: 114px;
+    height: 156px;
+
+    margin: 11px 0 0 0;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    font-family: 'Roboto-Light';
+}
+
+.logo {
+    background-image: url('../images/Areto.png');
+    width: 110px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+.information {
+    height: 224px;
+    margin: 0 247px 0 249px;
+
+}
+
+.block-company {
+    display: flex;
+    flex-direction: column;
+}
+
+.designed-by {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 7px 0;
+}
